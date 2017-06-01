@@ -106,7 +106,6 @@ def getROC( signal, background, label, cut_start=None, cut_end=None, outputName=
 	Atlas.ATLASLabel(0.2, 0.88,0.13, "Simulation Internal",color=1)
 	Atlas.myText(0.2, 0.81 ,color=1, size=0.04,text="#sqrt{s}=13 TeV, t#bar{t}") 
 	Atlas.myText(0.2, 0.75 ,color=1, size=0.04,text="p_{T}>20 GeV, |#eta|<2.5") 
-	#Atlas.myText(0.2, 0.69 ,color=1, size=0.04,text="Rel21") 
 
 	#canvas.Update()
 	canvas.Draw()
